@@ -1,101 +1,53 @@
 *{
-	padding:0px;
-	margin:0 auto;
+    margin: 0;
+    padding: 0;
 }
-body{
-	background-color:#D9EEE1;
-	font-family: 'AR One Sans';font-size:20px;
+h1{
+    text-align: center;
+    color: hotpink;
 }
-.container{
-	max-width:1000px;
-	background-color:#059862;
-	padding:20px;
-	margin:0 auto;
+h1:hover{
+    color: aqua;
+    text-shadow: 0px 3px 3px orange;
 }
-.profile-image{
-	width:100px;
-	height:120px;
-	border-radius:50%;
-	float:left;
-	border:solid white 3px;
+.card{
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 3px 3px hotpink;
+    transition: 0.3s;
+    font-size: 0;
 }
-.header-bio{
-	float:left;
-	padding:15px;
-	
-	
+.card:hover{
+    box-shadow:0px 10px 20px hotpink;
 }
-h1,h2,h3,h4,h5,h6{
-	color:#FFC0C7;
-	
+.card-head #result{
+    width: 336px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    background-color: cadetblue;
+    color: white;
 }
-.contect{
-	float:right;
-	padding:15px;
+.card-head #result:hover{
+    background-color: cyan;
 }
-.contect a{
-	text-decoration:none;
-	color:#FFC0C7;
+.btn{
+    width: 87px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+    color:black;
 }
-.contect a:hover{
-	text-decoration:underline;
-	color:red;
+.btn:hover{
+    background-color: cyan;
 }
-.clear{
-	clear:both;
-}
-hr{
-	border:3px solid black;
-	width:100%;
-	margin:20px auto;
-	border-bottom:none;
-}
-.left-div{
-	float:left;
-	width:30%;
-}
-.right-div{
-	float:right;
-	width:70%;
-}
-.boy{
-	border:1px solid black;
-	margin:10px;
-	width:100%;
-}
-.left-div{
-	float:left;
-	width:30%;
-}
-.right-div{
-	float:right;
-	width:70%;
-}
-.edu-left-div{
-	float:left;
-	width:45%;
-}
-.edu-right-div{
-	float:right;
-	width:45%;
-}
-.bottom-container{
-	background-color:black;
-	text-align:center;
-	padding:10px;
-	
-}
-.bottom-container a{
-	text-decoration:none;
-	color:yellow;
-	margin:20px;
-}
-.bottom-container a:hover{
-	text-decoration:underline;
-	color:red;
-	
-}
-.bottom-container p{
-	color:yellow;
-	margin-top:20px;
+.btn-style{
+    background-color: #5F4886;
+    color: white;
 }
