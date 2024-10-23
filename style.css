@@ -1,0 +1,101 @@
+*{
+	padding:0px;
+	margin:0 auto;
+}
+body{
+	background-color:#D9EEE1;
+	font-family: 'AR One Sans';font-size:20px;
+}
+.container{
+	max-width:1000px;
+	background-color:#059862;
+	padding:20px;
+	margin:0 auto;
+}
+.profile-image{
+	width:100px;
+	height:120px;
+	border-radius:50%;
+	float:left;
+	border:solid white 3px;
+}
+.header-bio{
+	float:left;
+	padding:15px;
+	
+	
+}
+h1,h2,h3,h4,h5,h6{
+	color:#FFC0C7;
+	
+}
+.contect{
+	float:right;
+	padding:15px;
+}
+.contect a{
+	text-decoration:none;
+	color:#FFC0C7;
+}
+.contect a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.clear{
+	clear:both;
+}
+hr{
+	border:3px solid black;
+	width:100%;
+	margin:20px auto;
+	border-bottom:none;
+}
+.left-div{
+	float:left;
+	width:30%;
+}
+.right-div{
+	float:right;
+	width:70%;
+}
+.boy{
+	border:1px solid black;
+	margin:10px;
+	width:100%;
+}
+.left-div{
+	float:left;
+	width:30%;
+}
+.right-div{
+	float:right;
+	width:70%;
+}
+.edu-left-div{
+	float:left;
+	width:45%;
+}
+.edu-right-div{
+	float:right;
+	width:45%;
+}
+.bottom-container{
+	background-color:black;
+	text-align:center;
+	padding:10px;
+	
+}
+.bottom-container a{
+	text-decoration:none;
+	color:yellow;
+	margin:20px;
+}
+.bottom-container a:hover{
+	text-decoration:underline;
+	color:red;
+	
+}
+.bottom-container p{
+	color:yellow;
+	margin-top:20px;
+}
